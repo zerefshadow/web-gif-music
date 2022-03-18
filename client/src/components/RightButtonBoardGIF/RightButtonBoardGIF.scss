@@ -1,0 +1,47 @@
+.RightButtonBoardGIF{
+    position: absolute;
+    right: -20px;
+    top: 35%;
+    transition: translateY(-50%);
+    background-color: rgba(23, 24, 31, 0.8);
+    height: 135px;
+    width: 60px;
+    z-index: 11;
+    border-radius: 34px;
+    margin-right: 36px;
+    padding: 10px;
+    color: #4e5054;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: border-radius 0.1s ease-in-out;
+
+    .ButtonBoardGIF{
+        cursor: pointer;
+        padding: 14px;
+        border-top: 2px solid #4e5054;
+
+        .iconButton.active{
+            color: #f3a952;
+        }
+    } 
+
+    .ButtonBoardGIF:first-child{
+        border: none;
+    }
+}
+
+.RightButtonBoardGIFBox{
+    position: absolute;
+    right: 100%;
+    top: -40%;
+    background-color: rgba(23, 24, 31, 0.8);
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    transform-origin: left top;
+    border-radius: 30px;
+}

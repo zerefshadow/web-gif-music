@@ -1,0 +1,62 @@
+.FormMusic{
+    border-radius: 0 34px 34px 34px;
+}
+
+.formBox{
+    padding-bottom: 70px;
+
+    .form__name{
+        width: 100%;
+        height: 50px;
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        label{
+            font-size: 16px;
+        }
+        input{
+            box-shadow: 1px 1px 7px rgba(155, 127, 127, 0.74);
+            border: none;
+            border-radius:10px;
+            background-color: transparent;
+            color: rgb(131, 126, 117);
+        }
+    }
+
+    .formFileBase{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        padding-top: 15px;
+        border: none;
+    }
+
+    .form__submit{
+        position: absolute;
+        left: 39%;
+        top: 160px;
+    }
+
+    .form__clear{
+        position: absolute;
+        right: 19%;
+        top: 160px;
+    }
+
+    button{
+        border: 2px solid #4e5054;
+        border-radius: 10px;
+        font-size: 17px;
+        background-color: transparent;
+        color: #4e5054;
+        box-shadow: 1px 1px 10px rgba(94, 78, 78, 0.842);
+    }
+
+    button:hover{
+        background-color: rgb(61, 46, 46);
+        color: rgb(184, 145, 145);
+    }
+}

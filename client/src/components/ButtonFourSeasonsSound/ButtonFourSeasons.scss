@@ -1,0 +1,218 @@
+.containerWrap{
+    position: absolute;
+    z-index: 10;
+    bottom: -20px;
+    margin: 20% auto;
+    left: 650px;
+    width: 250px;
+    height: 120px;
+    color: rgb(102, 87, 87);
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Arial , Helvetica Neue , Helvetica , sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .button{
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        // transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+        // animation: animate 5s linear infinite;
+    }
+
+    .button .dropdown{
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+    }
+
+    .button .spring{
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        // transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+        // animation: animate 5s linear infinite;
+    }
+
+    .button .summer{
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        //transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+       
+    }
+
+    .button .autumn{
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        //transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+        
+    }
+
+    .button .winter{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+        border: 2px solid rgb(109, 85, 85);
+        border-radius: 100px;
+        margin: 5px auto;
+        //transition: 0.5s cubic-bezier(0.68 , -0.55 , 0.265 , 1.55);
+        
+    }
+
+    .icon{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    .button:hover{
+        width: 50px;
+        background-color: transparent;
+        box-shadow: 0ox 5px 5px rgba(0 , 0 , 0 , 0.2);
+        color: #267e6f;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .button .spring:hover{
+        width: 50px;
+        background-color: rgba(0 , 0 , 0 ,0.8);
+        box-shadow: 0ox 5px 5px rgba(0 , 0 , 0 , 0.2);
+        color: #267e6f;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .button .summer:hover{
+        width: 50px;
+        background-color: rgba(0 , 0 , 0 ,0.8);
+        box-shadow: 0ox 5px 5px rgba(0 , 0 , 0 , 0.2);
+        color: #267e6f;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .button .autumn:hover{
+        width: 50px;
+        background-color: rgba(0 , 0 , 0 ,0.8);
+        box-shadow: 0ox 5px 5px rgba(0 , 0 , 0 , 0.2);
+        color: #267e6f;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .button .winter:hover{
+        width: 50px;
+        background-color: rgba(0 , 0 , 0 ,0.8);
+        box-shadow: 0ox 5px 5px rgba(0 , 0 , 0 , 0.2);
+        color: #267e6f;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .button:active{
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.05s;
+    }
+    
+}
+
+// .main-enter{
+    
+//         // position: absolute;
+//         // transform: translateY(10px);
+//         // top: 50px;
+//         // transition: all 5s ease-in-out;
+//         opacity: 1;
+        
+    
+// }
+
+// .main-enter.main-enter-active{
+//     // width: 100%;
+//     // transform: translateY(10%);
+//     // transition: all 5s ease-in-out;
+//     opacity: 1;
+//     transition: opacity 1000ms ease-in;
+// }
+
+// .main-exit{
+//     // position: absolute;
+    
+//     // top: 50px;
+//     // transition: all 5s ease-in-out;
+//     opacity: 1;
+// }
+
+// .main-exit.main-exit-active{
+//     // width: 100%;
+//     // transform: translateY(10px);
+//     // z-index: -1;
+//     // transition: all 5s ease-in-out;
+//     opacity: 0.01;
+//     transition: opacity 800ms ease-in;
+// }
+
+// @keyframes animate{
+//     0%{
+//         top: 0;
+//         left: 150px;
+//         transform: scaleY(1);
+//     }
+//     20%{
+//         top: 0;
+//         left: 150px;
+//         transform: scaleY(0.4);
+//     }
+//     40%{
+//         top: 0;
+//         left: 80px;
+//         transform: scaleY(1);
+//     }
+//     60%{
+//         top: 0;
+//         left: -150px;
+//     }
+//     80%{
+//         top: -200px;
+//         left: 150px;
+//     }
+//     100%{
+//         top: 0px;
+//         left: 150px;
+//     }
+// }

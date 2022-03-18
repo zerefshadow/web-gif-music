@@ -1,0 +1,32 @@
+.backgroundNoise::-webkit-scrollbar {
+  display: none;
+}
+
+.backgroundNoise {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  
+  .noise-option {
+    p {
+      margin-bottom: 0;
+      padding-right: 50px;
+    }
+    .slider {
+      height: 10px !important;
+      color: #a13567 !important;
+      width: 180px !important;
+      .MuiSlider-rail {
+        color: #4e5054;
+      }
+    }
+
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+  }
+}
